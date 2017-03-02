@@ -98,12 +98,16 @@ body {
 
 
 /* Styles specific to title/CV box at top */
-.portfolio-box-caption.cv-caption {
+.portfolio-box-caption .cv-caption {
 	color: #fff;
 	opacity: 1;
 	background: transparent;
 	align-self: center;
-	top: 0;
+	top: 40%;
+}
+
+.cv-caption {
+	opacity: 1;
 }
 
 .cv {
@@ -234,4 +238,17 @@ body {
 		),
 		url("../images/business.png");
 	background-size: cover;
+}
+
+
+/* Adding to Bootstrap media queries for different alignment of top section on small screens */
+
+@media (max-width: 768px) {
+	.portfolio-box-caption {
+		align-self: flex-start;
+	}
+
+	.portfolio-box-caption-content {
+		top: 20%;
+	}
 }
