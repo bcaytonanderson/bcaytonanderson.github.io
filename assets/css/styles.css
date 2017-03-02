@@ -16,11 +16,10 @@ body {
 
 .contact-section {
 	padding-top: 2vh;
-	padding-bottom: 2vh;
+	padding-bottom: 3vh;
 	padding-left: 0;
 	padding-right: 0;
-	background-color: #555;
-	/*height: 15vh;*/
+	background-color: transparent;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -37,28 +36,28 @@ body {
 
 .fa-5x {
 	color: #fff;
-	font-size: 10em;
+	font-size: 4em;
 	transition: color 1s;
 }
 
 .fa-5x.email:hover {
-	color: #d32f2f;
+	color: #FFAB91;
 }
 
-.fa-5x.phone:hover {
-	color: #FBC02D;
+.fa-5x.about:hover {
+	color: #FFE082;
 }
 
 .fa-5x.resume:hover {
-	color: #388E3C;
+	color: #A5D6A7;
 }
 
 .fa-5x.github:hover {
-	color: #1976D2;
+	color: #81D4FA;
 }
 
 .fa-5x.linkedin:hover {
-	color: #7B1FA2;
+	color: #B39DDB;
 }
 
 /* General Styles for portfolio boxes */
@@ -109,14 +108,8 @@ body {
 	color: #fff;
 	opacity: 1;
 	background: transparent;
-	transition: background 1s;
+	align-self: center;
 }
-
-.portfolio-box-caption.cv-caption:hover {
-	opacity: 1;
-	background: rgba(124,77,255 ,0.8);
-}
-
 
 .cv {
 	height: 50vh;
@@ -127,20 +120,22 @@ body {
 		),
 		url("../images/code-mess.png");
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+
+
 }
 
 .cv .caption-category {
-	font-size: 20px;
-	text-decoration: underline;
+	font-size: 38px;
+	font-weight: 700;
 }
-
-.cv .caption-cv-sub {
-	font-size: 30px;
-}
-
 
 .cv .caption-project {
-	font-size: 42px;
+	font-size: 48px;
+	font-weight: 700;
 }
 
 
