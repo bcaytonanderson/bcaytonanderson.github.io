@@ -28,12 +28,6 @@ body {
 	align-content: center;
 }
 
-/*.fa {
-	width: 20%;
-	height: auto;
-	flex-grow: 1;
-}*/
-
 .fa-5x {
 	color: #fff;
 	font-size: 4em;
@@ -95,11 +89,11 @@ body {
 }
 
 .caption-category {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .caption-project {
-	font-size: 28px;
+	font-size: 2em;
 }
 
 
@@ -109,6 +103,7 @@ body {
 	opacity: 1;
 	background: transparent;
 	align-self: center;
+	top: 0;
 }
 
 .cv {
@@ -129,12 +124,12 @@ body {
 }
 
 .cv .caption-category {
-	font-size: 38px;
+	font-size: 2em;
 	font-weight: 700;
 }
 
 .cv .caption-project {
-	font-size: 48px;
+	font-size: 3em;
 	font-weight: 700;
 }
 
