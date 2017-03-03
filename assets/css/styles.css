@@ -1,6 +1,11 @@
+html {
+	overflow-y: scroll;
+}
+
 body {
 	background-color: #757575;
 	font-family: 'Amiko', sans-serif;
+	color: #fff;
 }
 
 .main-container {
@@ -53,6 +58,23 @@ body {
 .fa-5x.linkedin:hover {
 	color: #B39DDB;
 }
+
+/* Styles for About section */
+.about-left, .about-right {
+	padding: 0 2em 20px 2em;
+}
+
+#about-section h1 {
+	font-weight: 600;
+	font-family: 'Dosis', sans-serif;
+}
+
+#about-section p {
+	text-align: justify;
+	/*font-size: ;*/
+}
+
+
 
 /* General Styles for portfolio boxes */
 .item {
