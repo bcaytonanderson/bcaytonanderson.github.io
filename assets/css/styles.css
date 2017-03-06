@@ -110,10 +110,6 @@ body {
 	top: 40%;
 }
 
-.caption-name {
-	font-size: 5em;
-	font-weight: 500;
-}
 
 .caption-category {
 	font-size: 1em;
@@ -124,8 +120,8 @@ body {
 }
 
 
-/* Styles specific to title/CV box at top */
-.portfolio-box-caption .cv-caption {
+/* Styles specific to title-box at top */
+.portfolio-box-caption .title-box-caption {
 	color: #fff;
 	opacity: 1;
 	background: transparent;
@@ -133,16 +129,16 @@ body {
 	top: 40%;
 }
 
-.cv-caption {
+.title-box-caption {
 	opacity: 1;
 }
 
-.cv {
+.title-box {
 	height: 50vh;
 	background:
 		linear-gradient(
-			rgba(169,169,169 ,0.85),
-			rgba(169,169,169 ,0.85)
+			rgba(97,97,97 ,0.96),
+			rgba(97,97,97 ,0.96)
 		),
 		url("../images/code-mess.png");
 	background-size: cover;
@@ -154,12 +150,17 @@ body {
 
 }
 
-.cv .caption-category {
+.caption-name {
+	font-size: 5em;
+	font-weight: 500;
+}
+
+.title-box .caption-category {
 	font-size: 2em;
 	font-weight: 700;
 }
 
-.cv .caption-project {
+.title-box .caption-project {
 	font-size: 3em;
 	font-weight: 700;
 }
