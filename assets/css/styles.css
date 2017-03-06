@@ -4,7 +4,7 @@ html {
 
 body {
 	background-color: #757575;
-	font-family: 'Amiko', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	color: #fff;
 }
 
@@ -110,6 +110,11 @@ body {
 	top: 40%;
 }
 
+.caption-name {
+	font-size: 5em;
+	font-weight: 500;
+}
+
 .caption-category {
 	font-size: 1em;
 }
@@ -136,8 +141,8 @@ body {
 	height: 50vh;
 	background:
 		linear-gradient(
-			rgba(169,169,169 ,0.45),
-			rgba(169,169,169 ,0.45)
+			rgba(169,169,169 ,0.85),
+			rgba(169,169,169 ,0.85)
 		),
 		url("../images/code-mess.png");
 	background-size: cover;
