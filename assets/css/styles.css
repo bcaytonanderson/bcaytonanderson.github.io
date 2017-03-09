@@ -182,36 +182,6 @@ body {
 	background: rgba(142,36,170 ,0.8);
 }
 
-
-/* Styles for JS, jQ, and Angular projects */
-/*.portfolio-box-caption.js-caption {
-	background: rgba(156,39,176 ,0.4);
-	transition: opacity 1s, background 1s;
-}
-
-.portfolio-box-caption.js-caption:hover {
-	opacity: 1;
-	background: rgba(170,0,255 ,.8);	
-}
-
-.portfolio-box-caption.angular-caption {
-	background: rgba(156,39,176 ,0.4);
-	transition: opacity 1s, background 1s;
-}*/
-
-
-/* Styles for .NET projects */
-/*.portfolio-box-caption.dotnet-caption {
-	background: rgba(156,39,176 ,0.4);
-	transition: opacity 1s, background 1s;
-}
-
-.portfolio-box-caption.dotnet-caption:hover {
-	opacity: 1;
-	background: rgba(48,63,159 ,0.8);
-}*/
-
-
 /* Specific styles for individual portfolio items: color filter, background image, and options*/
 .factor {
 	background:
