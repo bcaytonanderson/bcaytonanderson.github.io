@@ -274,6 +274,28 @@ body {
 }
 
 
+.projects-container, .items-container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#factor-overlay {
+	position: absolute;
+	z-index: 20;
+	background-color: red;
+}
+
+.project-details {
+	background-color: gray;
+	height: 50vh;
+}
+
+.project-details-picture, .project-details-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 /* Adding to Bootstrap media queries for different alignment of top section on small screens */
 
 @media (max-width: 768px) {
